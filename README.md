@@ -1,2 +1,12 @@
-# Fluorescence_Lifetime-Solis_Soft.-Andor_Instruments
-. FLIM measures the time a fluorophore remains in its excited state before emitting a photon, making it highly sensitive to the local environment such as pH, ion concentration, or molecular interactions. This repository contains Python tools for processing and visualizing FLIM data, including lifetime extraction and colormap-based imaging
+# Fluorescence lifetime image (FLIM) Plotting Toolkit
+# This will work only for the generated ASCII file from ANDOR Instruments U.K.
+This repository contains Python scripts for plotting **Time-Resolved Photoluminescence (TRPL)** and **Fluorescence Lifetime Imaging Microscopy (FLIM)** data.  
+It is designed to help researchers visualize experimental lifetime data using simple, customizable plots.
+
+---
+
+## Features
+- Plot TRPL decay curves from experimental data.
+- Visualize FLIM lifetime maps with colormaps.
+- Adjustable fitting options (single/multi-exponential).
+- Easy to modify and extend for specific experimental setups.
