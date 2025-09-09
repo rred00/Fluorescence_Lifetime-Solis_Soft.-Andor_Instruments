@@ -48,7 +48,7 @@ class Fitting:
             return [np.nan, np.nan, np.nan]
 
 
-# In[ ]:
+
 
 
 
