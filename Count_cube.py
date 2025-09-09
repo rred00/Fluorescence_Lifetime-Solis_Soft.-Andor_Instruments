@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
 
 
 import numpy as np
@@ -78,7 +77,7 @@ class ASCIIDataLoader:
         print(f"Number of scans: {self.acqui_time}")
 
 
-# In[ ]:
+
 
 
 
