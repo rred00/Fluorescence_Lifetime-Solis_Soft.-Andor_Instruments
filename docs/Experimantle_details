@@ -1,0 +1,64 @@
+# 🧪 Experimental Details: FLIM & TRPL on Rhodamine 6G
+
+This experiment demonstrates the use of a **dual-mode setup** for both widefield **Fluorescence Lifetime Imaging (FLIM)** and **Time-Resolved Photoluminescence (TRPL)** spectroscopy.  
+The goal was
+  to obtain a fluorescene lifetime image
+  to correlate **spectral-temporal dynamics** with **spatial lifetime maps** from the same sample, without modifying the external optics.
+
+---
+
+## 📌 Sample Preparation
+- **Sample**: Rhodamine 6G (3 mM in methanol).  
+- The solution was placed in a standard cuvette for optical measurements.  
+
+---
+
+## 🔦 Excitation Source
+- **Laser**: Ti:Sapphire femtosecond laser (Coherent Libra).  
+- **Pulse width**: ~100 fs  
+- **Wavelength**: 808 nm (frequency-doubled for excitation).  
+- **Repetition rate**: 1 kHz  
+- **Excitation pulses**: SHG pulses were directed onto the sample.  
+
+---
+
+## 🎥 Detection System
+- **Detector**: Intensified CCD (iCCD) camera Ador iSTAR series 
+- **Spectrometer**: Andor Kymera 328i (coupled to iCCD).  
+- Both TRPL and FLIM modes share the same detection hardware.  
+
+---
+
+## 🔬 TRPL Measurements
+- The **emission spectrum** was recorded by the spectrometer–iCCD system.  
+- **Temporal mapping** was achieved with:
+  - Gate width: **2 ns**  
+  - Delay steps: **1 ns**  
+- Results:
+  - Peak emission observed at **567 nm**.  
+  - Fluorescence decay fitted with a **bi-exponential model**:
+    - Dominant component: **≈2.10 ns**  
+    - Minor, longer component: **≈18.0 ns**  
+
+---
+
+## 🖼️ FLIM Measurements
+After TRPL, the system was switched into FLIM mode **without changing the optics or sample conditions**:  
+- **Spectrometer passivated** (bypassed).  
+- A **bandpass filter (540 ± 20 nm)** inserted to select emission region of interest.  
+- Time-gated images were collected using the same iCCD configuration.  
+- Lifetime analysis was performed **pixel-wise** with:
+  - Single-exponential fitting  
+  - Deconvolution with the **Instrument Response Function (IRF)**  
+
+Result:  
+- Average fluorescence lifetime across the image: **≈2.30 ns**  
+
+---
+
+## ⚡ Key Takeaway
+This **dual-mode TRPL–FLIM setup** provides a **flexible and efficient approach** to study both the spectral-temporal response and the spatial lifetime distribution of fluorescent samples.  
+
+By switching seamlessly between TRPL and FLIM, we can correlate **decay kinetics** with **lifetime maps**, offering deeper insight into the excited-state dynamics of Rhodamine 6G.
+
+---
