@@ -16,7 +16,7 @@ It is designed to help researchers visualize experimental lifetime data using si
 ---
 
 ## 📂 Repository Structure
-- `codes/` → Python scripts for data processing and analysis  
+- `.py` → Python scripts for data processing and analysis  
 - `docs/` → Experiment details, schematics, and notes  
 - `README.md` → Overview of the project  
 
@@ -26,14 +26,14 @@ It is designed to help researchers visualize experimental lifetime data using si
 The experiment involves wide-field fluorescence lifetime imaging of **Rh6G**.  
 The setup is based on [objective lens, excitation source, detection method].  
 
-Detailed notes are available in [`docs/experiment_details.md`](docs/experiment_details.md).
+Detailed notes are available in [`docs/experiment_details.md`](docs/experimental_details.md).
 
 ---
 
 ## 🖼️ Schematic
 Below is the experimental schematic:
 
-![Experimental Schematic](docs/schematic.png)
+![Experimental Schematic](docs/schematic_results.png)
 
 ---
 
@@ -41,3 +41,4 @@ Below is the experimental schematic:
 Clone the repository:
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
+
